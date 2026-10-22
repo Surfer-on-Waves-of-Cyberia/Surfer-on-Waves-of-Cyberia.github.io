@@ -3,7 +3,6 @@
 # ==========================================
 
 baseURL = 'https://Surfer-on-Waves-of-Cyberia.github.io/'
-relativeURLs = true
 locale = 'en-us'              # The default language and localization
 title = 'Anonym Website'      # The global title of your site
 theme = 'risotto'             # The active theme folder

@@ -1,6 +1,6 @@
 +++
 date = '2026-10-22T11:21:09+02:00'
-draft = true
+draft = false
 title = 'First Entry'
 tags = ["system"]
 categories = ["logs"]
