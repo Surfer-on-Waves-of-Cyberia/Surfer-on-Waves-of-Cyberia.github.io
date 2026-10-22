@@ -1,0 +1,7 @@
+baseURL = 'https://not-named-yet.github.io'
+locale = 'en-us'
+title = 'not-named-yet'
+theme = 'risotto'
+
+[params]
+  theme = "base16-dark" # or "tokyo-night-dark", "catppuccin-mocha", etc.
