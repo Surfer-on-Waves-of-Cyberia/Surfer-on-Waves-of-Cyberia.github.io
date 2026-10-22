@@ -1,7 +1,76 @@
-baseURL = 'https://not-named-yet.github.io'
-locale = 'en-us'
-title = 'not-named-yet'
-theme = 'risotto'
+# ==========================================
+# CORE SITE METADATA & URL SETTINGS
+# ==========================================
+
+baseURL = 'https://Surfer-on-Waves-of-Cyberia.github.io/'
+languageCode = 'en-us'        # The default language and localization
+title = 'Anonym Website'      # The global title of your site
+theme = 'risotto'             # The active theme folder
+paginate = 10                 # The maximum number of posts per page
+
+# ==========================================
+# STRICT SECURITY & PRIVACY CONTROLS
+# ==========================================
+
+disableHugoGeneratorInject = true   # Prevents injecting the generator meta tag to reduce fingerprinting
+enableRobotsTXT = true
+
+# ==========================================
+# OUTPUT FORMATS
+# ==========================================
+
+# Defines what file types Hugo should generate for different pages.
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML"]               
+section = ["HTML", "RSS"]     
+
+# ==========================================
+# CUSTOM TAXONOMIES (TAGGING & SORTING)
+# ==========================================
+
+# Defines custom categorization matrices for organizing your notes and portfolio.
+[taxonomies]
+tag = "tags"                  # (e.g., tags/linux)
+category = "categories"       # (e.g., categories/logs)
+skill = "skills"              # (e.g., for job-specific portfolio search)
+
+# ==========================================
+# RSS FEED CONTROLS
+# ==========================================
+
+# Limits RSS exposure to protect your layout history and limit historical footprint.
+# [services.rss]
+# limit = 50
+
+# ==========================================
+# GLOBAL SITE PARAMETERS & RISOTTO THEME CONFIG
+# ==========================================
 
 [params]
-  theme = "base16-dark" # or "tokyo-night-dark", "catppuccin-mocha", etc.
+env = "production"                                # Sets the environment to production mode
+description = "My Sea of Nowhere at No Time"      # Meta description for search engine
+author = "Anon"                                   # Global author tag
+palette = "base16-dark"                           # Ricing color palette
+
+# ==========================================
+# NAVIGATION MENU STRUCTURE
+# ==========================================
+
+# Item 1: Archive / Search menu link
+[[params.menu.main]]
+name = "Archive"
+url = "/search/"
+weight = 10 # Sorting order (lower numbers appear first)
+
+# Item 2: Logs / Posts menu link
+[[params.menu.main]]
+name = "Logs"
+url = "/posts/"
+weight = 20
+
+# Item 3: Resume Matrix menu link
+[[params.menu.main]]
+name = "Resume Matrix"
+url = "/resume/"
+weight = 30
