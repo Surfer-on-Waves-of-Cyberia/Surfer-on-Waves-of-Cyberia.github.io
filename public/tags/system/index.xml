@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>System on Anonym Website</title>
+		<link>http://localhost:1313/tags/system/</link>
+		<description>Recent content in System on Anonym Website</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 22 Oct 2026 11:21:09 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/system/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>First Entry</title>
+				<link>http://localhost:1313/posts/first-entry/</link>
+				<pubDate>Thu, 22 Oct 2026 11:21:09 +0200</pubDate>
+				<guid>http://localhost:1313/posts/first-entry/</guid>
+				<description>&lt;h3 id=&#34;check&#34;&gt;check&lt;/h3&gt;&#xA;&lt;p&gt;just in case something went wrong&lt;/p&gt;&#xA;&lt;h3 id=&#34;verifi&#34;&gt;verifi&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme:&lt;/strong&gt; Base16 color palette&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Markdown Rendering:&lt;/strong&gt; Headings, lists, and code blocks functioning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Draft Status:&lt;/strong&gt; Set to &lt;code&gt;false&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Example block&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;System operational. Secure feed live.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+	</channel>
+</rss>
